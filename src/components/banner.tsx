@@ -1,37 +1,37 @@
 import React, { useState } from 'react'
 import { Container, Navbar, Nav, NavDropdown } from 'react-bootstrap'
-import logo from './imgs/PortfolioNew.png'
+import logo from './imgs/Maggie-Logo.png'
 import { Link } from "react-router-dom";
-import { AiOutlineCode, AiFillEye } from 'react-icons/ai'
-import { FaDiceD20 } from 'react-icons/fa'
-import { BsPencil } from 'react-icons/bs'
+import { AiFillEye } from 'react-icons/ai'
+import { FaCameraRetro, FaPencilAlt } from 'react-icons/fa'
+import { LuChefHat } from "react-icons/lu";
 import "./styles.css"
 
 const Banner = () => {
     return (
         <div className="banner">
-            <Navbar bg="dark" expand="md" variant="dark" id="banner" style={{ padding: "10px" }} >
-                <Navbar.Brand href="/" >
+            <Navbar className="navbar" expand="md" variant="dark" id="banner" style={{ padding: "10px" }} >
+                <Navbar.Brand href="/" className="logo">
                     <img
                         src={logo}
-                        width="150"
-                        height="150"
+                        width="120"
+                        height="120"
                     />{' '}
                 </Navbar.Brand>
                 <Navbar.Brand href="/" className="justify-content-center title-text">
-                    <h1>Will Redding</h1>
+                    <h1 className="title-text">Maggie Redding</h1>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse className="justify-content-end" style={{ padding: "15px" }}>
                     <Nav>
-                        <Nav.Link className="banner-link" href="/code">
-                            <AiOutlineCode size="25"/> Code
+                        <Nav.Link className="banner-link" href="/graphics">
+                            <FaPencilAlt size="25"/> Graphics
                         </Nav.Link>
-                        <Nav.Link className="banner-link" href="/dnd">
-                            <FaDiceD20 size="25"/> D&D
+                        <Nav.Link className="banner-link" href="/photo">
+                            <FaCameraRetro size="25"/> Photo/Video 
                         </Nav.Link>
-                        <Nav.Link className="banner-link" href="/thoughts">
-                            <BsPencil size="25"/> Thoughts
+                        <Nav.Link className="banner-link" href="/makes-and-bakes">
+                            <LuChefHat size="25"/> Makes/Bakes
                         </Nav.Link>
                         <Nav.Link className="banner-link" href="/about">
                             <AiFillEye size="25"/> About

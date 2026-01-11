@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
 
 .title-text {
-    font-family: 'Press Start 2P';
+  font-family: "Leckerli One", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  padding-left: 20px;
+}
+
+.logo {
+    padding-left: 15px;
 }
 
 .banner {
@@ -12,6 +21,7 @@
 
 .banner-link {
     font-size: 20px;
+
 }
 
 html {
@@ -92,15 +102,9 @@ html {
     font-size: 60px;
 }
 
-.d20 {
+.cartoon {
     height: 43vmin;
     pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-    .d20 {
-        animation: App-logo-spin infinite 20s linear;
-    }
 }
 
 .social-link {
@@ -178,7 +182,7 @@ html {
 .tabset {
     z-index: 2;
     color: white;
-    background-color: #212528;
+    background-color: #1B211A;
 }
 
 .dnd-icon {

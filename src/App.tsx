@@ -5,10 +5,9 @@ import Banner from './components/banner';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, BrowserRouter, Routes } from 'react-router-dom';
 import About from './components/about';
-import Thoughts from './components/thoughts';
-import DnD from './components/dnd';
-import Code from './components/code';
-import TopThings from './components/top';
+import MakesAndBakes from './components/makesandbakes';
+import Photo from './components/photo';
+import Graphics from './components/graphics';
 
 function App() {
   return (
@@ -18,10 +17,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
-          <Route path="/thoughts" element={<Thoughts />}></Route>
-          <Route path="/code" element={<Code />}></Route>
-          <Route path="/dnd" element={<DnD />}></Route>
-          <Route path="/secret-top-100" element={<TopThings />}></Route>
+          <Route path="/photo" element={<Photo />}></Route>
+          <Route path="/graphics" element={<Graphics />}></Route>
+          <Route path="/makes-and-bakes" element={<MakesAndBakes />}></Route>
         </Routes>
       </div>
     </BrowserRouter>

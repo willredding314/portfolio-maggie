@@ -1,13 +1,12 @@
 import { Col, Container, Row } from "react-bootstrap";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import MovingText from 'react-moving-text'
-import './styles.css'
+import { GiMagicSwirl, GiDragonOrb } from "react-icons/gi"
+import { HiOutlineDocument } from "react-icons/hi"
+import { FaRocket } from "react-icons/fa";
 import maggie_aboutjpeg from './imgs/maggie-about.jpeg'
-import willandkevin from './imgs/willandkevin.png'
-import willandabbys from './imgs/willandabbys.png'
 
-const About = () => {
+const Photo = () => {
 
     const particlesInit = async (engine: any) => {
         await loadFull(engine);
@@ -100,33 +99,22 @@ const About = () => {
                     }}
                 />
             <Container fluid className="about-section">
-                <h1 className="white pagetitle">About Me</h1>
+                <h1 className="white pagetitle">Photography</h1>
                 <br></br>
                 <Row>
-                    <Col md="6">
-                        <h5 className="white">Email: meredding23@gmail.com</h5>
+                    <Col md="4">
+                        <br></br>
+                        <figure>
+                            <img src={maggie_aboutjpeg} width="286" height="382"></img>
+                            <figcaption className="white caption">Me at Gyeongbokgung Palace in Seoul</figcaption>
+                        </figure>
                     </Col>
-                    <Col md="6">
-                        <a target="_blank" href="https://docs.google.com/document/d/1z_FOua_48rrJovqQFK-pT30eA-HQu0cj/edit?usp=sharing&ouid=101031123672540542377&rtpof=true&sd=true">
-                            <button className="resume-button">Check out my resume!</button>
-                        </a>
-                    </Col>
-                </Row>
-                <br></br>
-                <Row>
-                    <Col md="8">
+                    <Col md="4">
                         <br></br>
-                        <br></br>
-                        <br></br>
-                        <p className="white about-text">
-                            Korean-born and American-raised, I was born in Jeju-do, Jeju Island in South Korea, 
-                            before being adopted and growing up in North Attleboro, MA. I exercised my creative mind 
-                            and love for the arts early through my education in North Attleboro and at Whitinsville
-                            Christian School, before heading to Gordon College to study Communication Arts and 
-                            Graphic Design. Here at school, I'm heavily involved in the student newspaper "The Tartan", 
-                            and I've spent my summers learning more about marketing and design through my graphics and 
-                            communications work at Pilgrim Pines over the summer. 
-                        </p>
+                        <figure>
+                            <img src={maggie_aboutjpeg} width="286" height="382"></img>
+                            <figcaption className="white caption">Me at Gyeongbokgung Palace in Seoul</figcaption>
+                        </figure>
                     </Col>
                     <Col md="4">
                         <br></br>
@@ -137,6 +125,7 @@ const About = () => {
                     </Col>
                 </Row>
                 <br></br>
+                <h1 className="white pagetitle">Videography</h1>
             </Container>
 
         </Container>
@@ -144,4 +133,4 @@ const About = () => {
     )
 }
 
-export default About;
+export default Photo;
