@@ -5,7 +5,15 @@ import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import 'react-tabs/style/react-tabs.css';
-import maggie_aboutjpeg from './imgs/maggie-about.jpeg'
+import cake1png from './imgs/cake1.png'
+import cake2png from './imgs/cake2.png'
+import cake3png from './imgs/cake3.png'
+import kenzie_hudsonpng from './imgs/kenzie_hudson.png'
+import open_seatingpng from './imgs/open_seating.png'
+import receptionpng from './imgs/reception.png'
+import banner1png from './imgs/banner1.png'
+import banner2png from './imgs/banner2.png'
+import banner3png from './imgs/banner3.png'
 
 
 const Makes = () => {
@@ -106,25 +114,49 @@ const Makes = () => {
                 <h3 className="white">Check out more of my work <a href="https://www.instagram.com/maggie.makesandbakes/">here</a>!</h3>
                 <br></br>
                 <Row>
+                    <Col md="3">
+                        <br></br>
+                        <figure>
+                            <img src={cake1png} width="286" height="382"></img>
+                            <figcaption className="white caption">Birthday Cake</figcaption>
+                        </figure>
+                    </Col>
+                    <Col md="6">
+                        <br></br>
+                        <figure>
+                            <img src={cake2png} width="512" height="341"></img>
+                            <figcaption className="white caption">Wedding Cake</figcaption>
+                        </figure>
+                    </Col>
+                    <Col md="3">
+                        <br></br>
+                        <figure>
+                            <img src={cake3png} width="286" height="382"></img>
+                            <figcaption className="white caption">Graduation Cake</figcaption>
+                        </figure>
+                    </Col>
+                </Row>
+                <br></br>
+                <Row>
                     <Col md="4">
                         <br></br>
                         <figure>
-                            <img src={maggie_aboutjpeg} width="286" height="382"></img>
-                            <figcaption className="white caption">Me at Gyeongbokgung Palace in Seoul</figcaption>
+                            <img src={kenzie_hudsonpng} width="286" height="382"></img>
+                            <figcaption className="white caption">Wedding Welcome Sign</figcaption>
                         </figure>
                     </Col>
                     <Col md="4">
                         <br></br>
                         <figure>
-                            <img src={maggie_aboutjpeg} width="286" height="382"></img>
-                            <figcaption className="white caption">Me at Gyeongbokgung Palace in Seoul</figcaption>
+                            <img src={open_seatingpng} width="286" height="382"></img>
+                            <figcaption className="white caption">Wedding Seating Sign</figcaption>
                         </figure>
                     </Col>
                     <Col md="4">
                         <br></br>
                         <figure>
-                            <img src={maggie_aboutjpeg} width="286" height="382"></img>
-                            <figcaption className="white caption">Me at Gyeongbokgung Palace in Seoul</figcaption>
+                            <img src={receptionpng} width="286" height="382"></img>
+                            <figcaption className="white caption">Wedding Reception Sign</figcaption>
                         </figure>
                     </Col>
                 </Row>

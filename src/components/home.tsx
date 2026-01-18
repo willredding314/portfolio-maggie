@@ -139,7 +139,7 @@ const Home = () => {
                             </h3>
                         </Col>
                         <Col md="5" className="d20col">
-                            <img src={maggie_headshot} width="448" height="576"></img>
+                            <img src={maggie_headshot} width="379" height="379"></img>
                         </Col>
                     </Row>
                 </Container>

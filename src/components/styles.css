@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://www.fontspace.com/melanin-font-f154669');
 
 .title-text {
-  font-family: "Leckerli One", cursive;
+  /*font-family: "Leckerli One", cursive;*/
   font-weight: 400;
   font-style: normal;
   font-size: 60px;
