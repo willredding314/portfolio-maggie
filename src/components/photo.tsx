@@ -35,7 +35,7 @@ import camp6png from './imgs/camp6.png'
 import camp7jpg from './imgs/camp7.jpg'
 import camp8jpg from './imgs/camp8.jpg'
 import camp9jpg from './imgs/camp9.jpg'
-import camp10png from './imgs/camp10.png'
+import camp10jpg from './imgs/camp10.jpg'
 import camp11jpg from './imgs/camp11.jpg'
 
 
@@ -330,7 +330,7 @@ const Photo = () => {
                     <Col md="6">
                         <br></br>
                         <figure>
-                            <img src={camp10png} width="281" height="421"></img>
+                            <img src={camp10jpg} width="281" height="421"></img>
                             <figcaption className="white caption">Elizabeth Gustafson</figcaption>
                         </figure>
                     </Col>

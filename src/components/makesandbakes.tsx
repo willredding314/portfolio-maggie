@@ -10,7 +10,7 @@ import cake2png from './imgs/cake2.png'
 import cake3png from './imgs/cake3.png'
 import kenzie_hudsonpng from './imgs/kenzie_hudson.png'
 import open_seatingpng from './imgs/open_seating.png'
-import receptionpng from './imgs/reception.png'
+import receptionjpg from './imgs/reception.jpg'
 import banner1png from './imgs/banner1.png'
 import banner2png from './imgs/banner2.png'
 import banner3png from './imgs/banner3.png'
@@ -155,7 +155,7 @@ const Makes = () => {
                     <Col md="4">
                         <br></br>
                         <figure>
-                            <img src={receptionpng} width="286" height="382"></img>
+                            <img src={receptionjpg} width="286" height="382"></img>
                             <figcaption className="white caption">Wedding Reception Sign</figcaption>
                         </figure>
                     </Col>
