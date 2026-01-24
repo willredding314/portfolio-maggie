@@ -3,7 +3,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import MovingText from 'react-moving-text'
 import './styles.css'
-import maggie_aboutjpeg from './imgs/maggie-about.jpeg'
+import maggie_aboutjpg from './imgs/maggie-about.jpg'
 import willandkevin from './imgs/willandkevin.png'
 import willandabbys from './imgs/willandabbys.png'
 
@@ -131,7 +131,7 @@ const About = () => {
                     <Col md="4">
                         <br></br>
                         <figure>
-                            <img src={maggie_aboutjpeg} width="286" height="382"></img>
+                            <img src={maggie_aboutjpg} width="286" height="382"></img>
                             <figcaption className="white caption">Me at Gyeongbokgung Palace in Seoul</figcaption>
                         </figure>
                     </Col>

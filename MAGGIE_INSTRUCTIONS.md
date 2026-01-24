@@ -3,11 +3,14 @@
 To run: npm start
 - make sure you're in the "portfolio" folder
 
-TODO: 
-    - switch out favicon.png for an "M"
-    - add photos + captions to "photography" 
-    - add photos + captions to "makesandbakes"
-    - add photos, captions, and descriptions to "graphics" 
-    - collect a series of links + descriptions for "videography" 
-    - for anything you can't figure out on "graphics", submit a request to Will
-        - include any content you want included (images, links, etc)
+To deploy changes
+- go to the git icon on the left 
+- should have some blue numbers, 3rd icon down
+- hover over "Changes" and hit the plus
+    - this "adds" the changes
+- go to terminal 
+- type: git commit -m "your message here about what you changed"
+    - this "commits" the changes
+- type: git push origin main
+    - this "pushes" the changes
+- check maggieredding.me to validate that the change has occurred ~5 minutes later
