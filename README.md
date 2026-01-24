@@ -1,3 +1,3 @@
-# Will Redding - Portfolio
+# Maggie Redding - Portfolio
 
-## Find it at [willredding.com](https://www.willredding.com/)
+## Find it at [maggieredding.net](https://maggieredding.net/)
