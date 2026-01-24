@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Container, Navbar, Nav, NavDropdown } from 'react-bootstrap'
 import logo from './imgs/Maggie-Logo.png'
+import pink_logo from './imgs/pink_logo.png'
 import { Link } from "react-router-dom";
 import { AiFillEye } from 'react-icons/ai'
 import { FaCameraRetro, FaPencilAlt } from 'react-icons/fa'
@@ -13,7 +14,7 @@ const Banner = () => {
             <Navbar className="navbar" expand="md" variant="dark" id="banner" style={{ padding: "10px" }} >
                 <Navbar.Brand href="/" className="logo">
                     <img
-                        src={logo}
+                        src={pink_logo}
                         width="120"
                         height="120"
                     />{' '}

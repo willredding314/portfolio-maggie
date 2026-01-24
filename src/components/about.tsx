@@ -125,7 +125,7 @@ const About = () => {
                             Christian School, before heading to Gordon College to study Communication Arts and 
                             Graphic Design. Here at school, I'm heavily involved in the student newspaper "The Tartan", 
                             and I've spent my summers learning more about marketing and design through my graphics and 
-                            communications work at Pilgrim Pines over the summer. 
+                            communications work at Pilgrim Pines. 
                         </p>
                     </Col>
                     <Col md="4">
